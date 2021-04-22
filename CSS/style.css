@@ -1,0 +1,59 @@
+body{
+    background-image:  url(/ASSETS/Morskie\ Oko.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+div{
+    
+    display: grid;
+    width: 500px;
+    height: 200px;
+    font-size: 100px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto; 
+    padding: 50px;
+    padding-top: 0;
+}
+
+#good{
+    text-align: center;
+    margin: 40px 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 770px){
+
+    body{
+        background-image:  url(/ASSETS/Morskie\ Oko.jpg);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    div{
+        
+        display: grid;
+        width: 300px;
+        height: 75%;
+        font-size: 110px;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+        margin-top: 100px; 
+    }
+    
+    #good{
+        text-align: center;
+        margin: 40px 0;
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+}
