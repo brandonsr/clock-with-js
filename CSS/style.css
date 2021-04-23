@@ -1,5 +1,5 @@
 body{
-    background-image:  url(background.jpg);
+    background-image:  url(/ASSETS/background.jpg);
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ div{
 @media only screen and (max-width: 770px){
 
     body{
-        background-image:  url(background.jpg);
+        background-image:  url(/ASSETS/background.jpg);
         background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
