@@ -1,8 +1,7 @@
 body{
-    background-image:  url(background.jpg);
-    background-position: center;
-    background-size: auto;
-    background-repeat: repeat;
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -20,6 +19,11 @@ div{
     padding-top: 0;
 }
 
+iframe{
+    margin: 0 auto;
+    display: grid;
+}
+
 #good{
     text-align: center;
     margin: 40px 0;
@@ -30,10 +34,9 @@ div{
 @media only screen and (max-width: 770px){
 
     body{
-        background-image:  url(background.jpg);
-        background-position: center;
-        background-size: auto;
-        background-repeat: no-repeat;
+        background: #aa4b6b;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         color: white;
         font-family: 'Ubuntu', sans-serif;
     }
@@ -41,15 +44,18 @@ div{
         
         display: grid;
         width: 300px;
-        height: 75%;
-        font-size: 110px;
+        height: 400px;
+        font-size: 130px;
         align-self: center;
         align-items: center;
         align-content: center;
         margin: 0 auto;
         margin-top: 100px; 
     }
-    
+    iframe{
+        width: 300px;
+        height: 150px;
+    }
     #good{
         text-align: center;
         margin: 40px 0;

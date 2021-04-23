@@ -27,4 +27,3 @@ const getHour = ()=>{
 } 
 // getHour()
 setInterval(getHour, 1)
-
