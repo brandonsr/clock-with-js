@@ -14,15 +14,15 @@ const getHour = ()=>{
 
     if(time.hora<12){
         let $good = document.querySelector('#good')
-        $good.innerHTML= "Buenos dias 🌤"
+        $good.innerHTML= "Buenos dias 🌤" + `prompt("Cual es tu nombre?")`
     }
     else if(time.hora<18){
         let $good = document.querySelector('#good')
-        $good.innerHTML= "Buenas tardes ☀"
+        $good.innerHTML= "Buenas tardes ☀" + `prompt("Cual es tu nombre?")`
     }
     else{
         let $good = document.querySelector('#good')
-        $good.innerHTML= "Buenas noches 🌙"
+        $good.innerHTML= "Buenas noches 🌙" + `prompt("Cual es tu nombre?")`
     }
 } 
 // getHour()
